@@ -93,7 +93,7 @@ Pay attention to the static configuration:
       default = "../POC_cloudflare_tunnel_to_expose_k8s"
     }
 
-`cloudflare.yaml`  
+`cloudflare.tf`  
 
     data "cloudflare_zone" "tunnel_poc" {
       # name = "tunnel.poc"
